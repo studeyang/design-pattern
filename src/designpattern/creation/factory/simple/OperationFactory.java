@@ -7,7 +7,7 @@ package designpattern.creation.factory.simple;
  */
 public class OperationFactory {
     public static Operation createOperation(char operator) {
-        Operation operation = null;
+        Operation operation;
 
         switch (operator) {
             case '+':

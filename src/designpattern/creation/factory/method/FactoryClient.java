@@ -8,6 +8,7 @@ import designpattern.creation.factory.simple.Operation;
  * @author yangll
  */
 public class FactoryClient {
+
     public static void main(String[] args) {
         IFactory operFactory = new DivFactory();
         Operation operation = operFactory.createOperation();

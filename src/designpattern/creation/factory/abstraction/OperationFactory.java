@@ -20,8 +20,7 @@ public class OperationFactory {
         allOperationMaps.put("/", OperationDiv.class);
     }
 
-    public static Operation createOperation(String operator)
-            throws InstantiationException, IllegalAccessException {
+    public static Operation createOperation(String operator) throws InstantiationException, IllegalAccessException {
         Operation operation;
 
         Class<?> operationClass = allOperationMaps.get(operator);

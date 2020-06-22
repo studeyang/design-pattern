@@ -8,8 +8,7 @@ import designpattern.creation.factory.simple.Operation;
  * @author yangll
  */
 public class Client {
-    public static void main(String[] args) throws InstantiationException,
-            IllegalAccessException {
+    public static void main(String[] args) throws InstantiationException, IllegalAccessException {
         Operation operation = OperationFactory.createOperation("/");
 
         operation.numberA = 7;
