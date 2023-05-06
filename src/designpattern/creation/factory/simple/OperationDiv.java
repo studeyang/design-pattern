@@ -8,7 +8,7 @@ package designpattern.creation.factory.simple;
 public class OperationDiv extends Operation {
 
     @Override
-    public double result() {
+    public double getResult() {
         if (numberB == 0) {
             throw new RuntimeException("divided by 0");
         }

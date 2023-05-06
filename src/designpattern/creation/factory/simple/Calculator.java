@@ -15,6 +15,6 @@ public class Calculator {
         operation.numberA = 1.2;
         operation.numberB = 2.3;
 
-        System.out.println(operation.result());
+        System.out.println(operation.getResult());
     }
 }

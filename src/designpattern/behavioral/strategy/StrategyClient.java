@@ -6,6 +6,7 @@ package designpattern.behavioral.strategy;
  * @author <a href="https://github.com/studeyang">studeyang</a>
  */
 public class StrategyClient {
+
     public static void main(String[] args) {
         Context context;
 
@@ -19,4 +20,5 @@ public class StrategyClient {
         context.contextInterface();
 
     }
+
 }

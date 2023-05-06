@@ -40,29 +40,30 @@
 
 # 二、程序设计6大原则
 
-- 单一职责原则（SRP）
+## 2.1 单一职责原则（SRP）
 
-  就一个类而言，应该仅有一个引起它变化的原因。
+就一个类而言，应该仅有一个引起它变化的原因。
 
-- 里氏替换原则（LSP）
+## 2.2 里氏替换原则（LSP）
 
-  子类型必须能够替换掉它们的父类型。
+子类型必须能够替换掉它们的父类型。
 
-- 接口隔离原则
+## 2.3 接口隔离原则
 
-  接口最小化原则
+接口最小化原则
 
-- 依赖倒置原则
+## 2.4 依赖倒置原则
 
-  高层模块不应该依赖低层模块，两个都应该依赖抽象；<br>抽象不应该依赖细节，细节应该依赖抽象；
+- 高层模块不应该依赖低层模块，两个都应该依赖抽象
+- 抽象不应该依赖细节，细节应该依赖抽象；
 
-- 迪米特原则（LoD）
+## 2.5 迪米特原则（LoD）
 
-  如果两个类不必彼此直接通信，那么这两个类就不应当发生直接的相互作用。如果其中一个类需要调用另一个类的某一个方法的话，可以通过第三者转发这个调用。
+如果两个类不必彼此直接通信，那么这两个类就不应当发生直接的相互作用。如果其中一个类需要调用另一个类的某一个方法的话，可以通过第三者转发这个调用。
 
-- 开闭原则
+## 2.6 开闭原则
 
-  软件实现（类、模块、函数等等）应该可以扩展，但是不可修改。
+软件实现（类、模块、函数等等）应该可以扩展，但是不可修改。
 
 # 三、UML类图和类之间的关系
 
@@ -70,7 +71,7 @@
 
 ### 1. 类
 
-![](images/wpsED7E.tmp.jpg)
+![](https://technotes.oss-cn-shenzhen.aliyuncs.com/2023/202305062250334.png)
 
 类图分三层：
 
@@ -80,7 +81,9 @@
 
 ### 2. 接口类
 
-![](images/wpsED7F.tmp.jpg)
+矩形表示法，顶端有`<<interface>>`
+
+![](https://technotes.oss-cn-shenzhen.aliyuncs.com/2023/202305062255890.png)
 
 第一行是接口名称。第二行是接口方法。
 
@@ -90,19 +93,25 @@
 
 继承关系用空心三角形 + 实线来表示。
 
-![](images/wpsED91.tmp.jpg)
+![](https://technotes.oss-cn-shenzhen.aliyuncs.com/2023/202305062258987.png)
 
 ### 2. 实现接口类
 
 实现接口用空心三角形 + 虚线来表示。
 
-![](images/wpsEDA1.tmp.jpg)
+![](https://technotes.oss-cn-shenzhen.aliyuncs.com/2023/202305062300409.png)
 
 ### 3. 关联关系
 
 关联关系用实际箭头来表示。
 
-![](images/wpsEDA2.tmp.jpg)
+![image-20230506230226208](https://technotes.oss-cn-shenzhen.aliyuncs.com/2023/202305062302264.png)
+
+```java
+public class Penguin extends Bird {
+    private Climate climate;
+}
+```
 
 看企鹅和气候两个类，企鹅是很特别的鸟，会游不会飞。更重要的是，它与气候有很大的关联。当一个类知道另一个类时，可以用关联（association）。
 
@@ -112,9 +121,13 @@
 
 我们再来看大雁与雁群这两个类。
 
-<img src="images/wpsEDB3.tmp.jpg" style="zoom:80%;" />
+![](https://technotes.oss-cn-shenzhen.aliyuncs.com/2023/202305062305023.png)
 
-![](images/wpsEDB4.tmp.jpg)
+```java
+public class WideGooseAggregate {
+    private WideGoose[] arrayWideGoose;
+}
+```
 
 ### 5. 组合关系
 
@@ -122,7 +135,7 @@
 
 组合关系是一种强的拥有关系，体现了严格的部分和整体的关系，部分和整体的生命周期一样。
 
-![](images/wpsEDC5.tmp.jpg)
+![](https://technotes.oss-cn-shenzhen.aliyuncs.com/2023/202305062307472.png)
 
 在这里鸟和其翅膀就是组合关系，因为它们是部分和整体的关系，并且翅膀和鸟的生命周期是相同的。
 
@@ -138,7 +151,12 @@
 
 也就是说，动物依赖于氧气和水。它们之间是依赖关系（Dependency），用虚线箭头来表示。
 
-![](images/wpsEDC6.tmp.jpg)
+![](https://technotes.oss-cn-shenzhen.aliyuncs.com/2023/202305062309323.png)
 
-![](images/wpsEDD6.tmp.jpg)
+```java
+public abstract class Animal {
+    public Metabolism(Oxygen oxygen, Water water) {
+    }
+}
+```
 

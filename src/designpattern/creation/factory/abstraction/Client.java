@@ -14,6 +14,6 @@ public class Client {
         operation.numberA = 7;
         operation.numberB = 8;
 
-        System.out.println(operation.result());
+        System.out.println(operation.getResult());
     }
 }

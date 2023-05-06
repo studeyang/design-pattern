@@ -6,6 +6,7 @@ package designpattern.behavioral.strategy;
  * @author <a href="https://github.com/studeyang">studeyang</a>
  */
 public class Context {
+
     Strategy strategy;
 
     public Context(Strategy strategy) {

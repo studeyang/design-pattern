@@ -16,7 +16,7 @@ public class FactoryClient {
         operation.numberA = 3.4;
         operation.numberB = 4.5;
 
-        System.out.println(operation.result());
+        System.out.println(operation.getResult());
 
     }
 }
