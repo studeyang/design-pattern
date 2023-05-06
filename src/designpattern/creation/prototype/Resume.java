@@ -5,7 +5,7 @@ import java.io.*;
 /**
  * 简历类
  *
- * @author yangll
+ * @author <a href="https://github.com/studeyang">studeyang</a>
  */
 public class Resume implements Cloneable, Serializable {
     private static final long serialVersionUID = -4410449301166191440L;

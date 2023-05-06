@@ -3,7 +3,7 @@ package designpattern.structural.proxy;
 /**
  * 代理类
  *
- * @author yangll
+ * @author <a href="https://github.com/studeyang">studeyang</a>
  *
  */
 public class Proxy implements Subject {

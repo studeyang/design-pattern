@@ -3,7 +3,7 @@ package designpattern.behavioral.iterator;
 /**
  * 聚集接口
  *
- * @author yangll
+ * @author <a href="https://github.com/studeyang">studeyang</a>
  *
  * @param <T>
  */

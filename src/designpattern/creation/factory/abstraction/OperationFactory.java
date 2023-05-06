@@ -8,7 +8,7 @@ import java.util.Map;
 /**
  * 利用反射改造简单工厂模式，去掉分支判断的逻辑
  *
- * @author yangll
+ * @author <a href="https://github.com/studeyang">studeyang</a>
  */
 public class OperationFactory {
     private static Map<String, Class<?>> allOperationMaps = new HashMap<>();

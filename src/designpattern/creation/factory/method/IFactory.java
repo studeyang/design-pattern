@@ -5,7 +5,7 @@ import designpattern.creation.factory.simple.Operation;
 /**
  * 工厂接口
  *
- * @author yangll
+ * @author <a href="https://github.com/studeyang">studeyang</a>
  */
 public interface IFactory {
     Operation createOperation();

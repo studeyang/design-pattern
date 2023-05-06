@@ -3,7 +3,7 @@ package designpattern.creation.factory.simple;
 /**
  * 乘法类
  *
- * @author yangll
+ * @author <a href="https://github.com/studeyang">studeyang</a>
  */
 public class OperationMul extends Operation {
 

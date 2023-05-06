@@ -3,7 +3,7 @@ package designpattern.behavioral.responsibilitychain;
 /**
  * 处理请求的接口
  *
- * @author yangll
+ * @author <a href="https://github.com/studeyang">studeyang</a>
  */
 public abstract class Handler {
 

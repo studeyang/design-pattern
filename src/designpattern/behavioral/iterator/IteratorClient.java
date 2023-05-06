@@ -3,7 +3,7 @@ package designpattern.behavioral.iterator;
 /**
  * 迭代器客户端
  *
- * @author yangll
+ * @author <a href="https://github.com/studeyang">studeyang</a>
  */
 public class IteratorClient {
     public static void main(String[] args) {

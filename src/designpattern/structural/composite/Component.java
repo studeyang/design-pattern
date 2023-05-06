@@ -3,7 +3,7 @@ package designpattern.structural.composite;
 /**
  * Component为组合中的对象声明接口，在适当情况下，实现所有类共有接口的默认行为。
  *
- * @author yangll
+ * @author <a href="https://github.com/studeyang">studeyang</a>
  */
 public abstract class Component {
     protected String name;

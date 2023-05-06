@@ -3,7 +3,7 @@ package designpattern.behavioral.state;
 /**
  * 抽象状态类
  *
- * @author yangll
+ * @author <a href="https://github.com/studeyang">studeyang</a>
  */
 public abstract class State {
     public abstract void handle(Context context);

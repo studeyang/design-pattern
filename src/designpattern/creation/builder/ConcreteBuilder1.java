@@ -3,7 +3,7 @@ package designpattern.creation.builder;
 /**
  * 具体建造者类
  *
- * @author yangll
+ * @author <a href="https://github.com/studeyang">studeyang</a>
  */
 public class ConcreteBuilder1 extends Builder {
 

@@ -3,7 +3,7 @@ package designpattern.structural.adapter;
 /**
  * 适配器客户端
  *
- * @author yangll
+ * @author <a href="https://github.com/studeyang">studeyang</a>
  */
 public class AdapterClient {
 

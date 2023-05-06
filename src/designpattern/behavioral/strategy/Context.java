@@ -3,7 +3,7 @@ package designpattern.behavioral.strategy;
 /**
  * 上下文
  *
- * @author yangll
+ * @author <a href="https://github.com/studeyang">studeyang</a>
  */
 public class Context {
     Strategy strategy;

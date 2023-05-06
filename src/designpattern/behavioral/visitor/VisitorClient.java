@@ -3,7 +3,7 @@ package designpattern.behavioral.visitor;
 /**
  * 客户端
  *
- * @author yangll
+ * @author <a href="https://github.com/studeyang">studeyang</a>
  *
  */
 public class VisitorClient {

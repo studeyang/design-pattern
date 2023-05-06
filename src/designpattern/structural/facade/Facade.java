@@ -3,7 +3,7 @@ package designpattern.structural.facade;
 /**
  * 外观类，它需要了解所有的子系统的方法或属性，进行组合，以备外界调用
  *
- * @author yangll
+ * @author <a href="https://github.com/studeyang">studeyang</a>
  */
 public class Facade {
     SubSystemOne subSystemOne;

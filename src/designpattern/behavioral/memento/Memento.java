@@ -3,7 +3,7 @@ package designpattern.behavioral.memento;
 /**
  * 备忘录（Memento）类
  *
- * @author yangll
+ * @author <a href="https://github.com/studeyang">studeyang</a>
  */
 public class Memento {
     private String state;

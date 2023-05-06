@@ -3,7 +3,7 @@ package designpattern.structural.facade;
 /**
  * “系统”接口，只是标记接口，暂无任何意义
  *
- * @author yangll
+ * @author <a href="https://github.com/studeyang">studeyang</a>
  */
 public interface SystemInterface {
 

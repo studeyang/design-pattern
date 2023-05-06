@@ -3,7 +3,7 @@ package designpattern.behavioral.memento;
 /**
  * 管理者（CareTaker）类：管理备忘录
  *
- * @author yangll
+ * @author <a href="https://github.com/studeyang">studeyang</a>
  */
 public class CareTaker {
 

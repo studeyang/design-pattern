@@ -3,7 +3,7 @@ package designpattern.creation.factory.simple;
 /**
  * 操作类工厂类
  *
- * @author yangll
+ * @author <a href="https://github.com/studeyang">studeyang</a>
  */
 public class OperationFactory {
     public static Operation createOperation(char operator) {

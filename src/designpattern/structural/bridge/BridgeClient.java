@@ -3,7 +3,7 @@ package designpattern.structural.bridge;
 /**
  * 客户端
  *
- * @author yangll
+ * @author <a href="https://github.com/studeyang">studeyang</a>
  */
 public class BridgeClient {
     public static void main(String[] args) {

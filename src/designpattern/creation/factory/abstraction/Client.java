@@ -5,7 +5,7 @@ import designpattern.creation.factory.simple.Operation;
 /**
  * 客户端
  *
- * @author yangll
+ * @author <a href="https://github.com/studeyang">studeyang</a>
  */
 public class Client {
     public static void main(String[] args) throws InstantiationException, IllegalAccessException {

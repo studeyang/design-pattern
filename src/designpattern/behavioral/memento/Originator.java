@@ -3,7 +3,7 @@ package designpattern.behavioral.memento;
 /**
  * 发起人（Originator） 类
  *
- * @author yangll
+ * @author <a href="https://github.com/studeyang">studeyang</a>
  */
 public class Originator {
 

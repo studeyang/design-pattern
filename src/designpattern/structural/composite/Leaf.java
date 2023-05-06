@@ -3,7 +3,7 @@ package designpattern.structural.composite;
 /**
  * Leaf在组合中表示叶节点对象，叶节点没有子节点
  *
- * @author yangll
+ * @author <a href="https://github.com/studeyang">studeyang</a>
  */
 public class Leaf extends Component {
 

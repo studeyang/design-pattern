@@ -3,7 +3,7 @@ package designpattern.behavioral.responsibilitychain;
 /**
  * 向链上的具体处理者对象提交请求
  *
- * @author yangll
+ * @author <a href="https://github.com/studeyang">studeyang</a>
  */
 public class Client {
     public static void main(String[] args) {

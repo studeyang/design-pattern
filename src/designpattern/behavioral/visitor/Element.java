@@ -3,7 +3,7 @@ package designpattern.behavioral.visitor;
 /**
  * 定义一个accept操作，它以一个访问者为参数
  *
- * @author yangll
+ * @author <a href="https://github.com/studeyang">studeyang</a>
  *
  */
 public abstract class Element {

@@ -3,7 +3,7 @@ package designpattern.behavioral.visitor;
 /**
  * 为该对象结构中ConcreteElement的每一个类声明一个Visit操作
  *
- * @author yangll
+ * @author <a href="https://github.com/studeyang">studeyang</a>
  *
  */
 public abstract class Visitor {

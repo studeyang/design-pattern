@@ -3,7 +3,7 @@ package designpattern.structural.proxy;
 /**
  * 真实实体类
  *
- * @author yangll
+ * @author <a href="https://github.com/studeyang">studeyang</a>
  *
  */
 public class RealSubject implements Subject {

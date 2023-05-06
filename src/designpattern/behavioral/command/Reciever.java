@@ -3,7 +3,7 @@ package designpattern.behavioral.command;
 /**
  * 知道如何实施与执行一个与请求相关的操作，任何类都可能作为一个接收者。真正执行请求的地方！
  *
- * @author yangll
+ * @author <a href="https://github.com/studeyang">studeyang</a>
  */
 interface Reciever {
     void action();

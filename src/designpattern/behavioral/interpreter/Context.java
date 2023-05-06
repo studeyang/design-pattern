@@ -3,7 +3,7 @@ package designpattern.behavioral.interpreter;
 /**
  * 包含解释器之外的一些全局信息
  *
- * @author yangll
+ * @author <a href="https://github.com/studeyang">studeyang</a>
  */
 public class Context {
 

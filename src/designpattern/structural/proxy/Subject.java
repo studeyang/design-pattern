@@ -3,7 +3,7 @@ package designpattern.structural.proxy;
 /**
  * 定义真实实体类与代理类共用的接口
  *
- * @author yangll
+ * @author <a href="https://github.com/studeyang">studeyang</a>
  *
  */
 public interface Subject {

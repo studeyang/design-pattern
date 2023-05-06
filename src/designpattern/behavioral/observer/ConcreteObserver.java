@@ -3,7 +3,7 @@ package designpattern.behavioral.observer;
 /**
  * 具体观察者
  *
- * @author yangll
+ * @author <a href="https://github.com/studeyang">studeyang</a>
  */
 public class ConcreteObserver extends Observer {
 

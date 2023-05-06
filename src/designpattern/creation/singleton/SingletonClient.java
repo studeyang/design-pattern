@@ -3,7 +3,7 @@ package designpattern.creation.singleton;
 /**
  * 单例模式客户端
  *
- * @author yangll
+ * @author <a href="https://github.com/studeyang">studeyang</a>
  */
 public class SingletonClient {
     public static void main(String[] args) {

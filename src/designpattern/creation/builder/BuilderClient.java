@@ -3,7 +3,7 @@ package designpattern.creation.builder;
 /**
  * 建造客户端
  *
- * @author yangll
+ * @author <a href="https://github.com/studeyang">studeyang</a>
  */
 public class BuilderClient {
 

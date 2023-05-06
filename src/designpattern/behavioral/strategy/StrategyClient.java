@@ -3,7 +3,7 @@ package designpattern.behavioral.strategy;
 /**
  * 客户端使用策略
  *
- * @author yangll
+ * @author <a href="https://github.com/studeyang">studeyang</a>
  */
 public class StrategyClient {
     public static void main(String[] args) {

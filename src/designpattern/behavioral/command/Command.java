@@ -5,7 +5,7 @@ import java.util.List;
 /**
  * 用来声明执行操作的接口
  *
- * @author yangll
+ * @author <a href="https://github.com/studeyang">studeyang</a>
  */
 public abstract class Command {
 

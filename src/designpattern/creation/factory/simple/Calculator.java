@@ -3,7 +3,7 @@ package designpattern.creation.factory.simple;
 /**
  * 使用工厂方法生成实例完成运算操作
  *
- * @author yangll
+ * @author <a href="https://github.com/studeyang">studeyang</a>
  */
 public class Calculator {
     public static void main(String[] args) {

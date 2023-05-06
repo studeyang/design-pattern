@@ -5,7 +5,7 @@ package designpattern.behavioral.iterator;
  * 之所以要将迭代器和聚集分开，就是为了将行为与数据分开。 可类比Java中Iterator与Iterable的关系进行理解
  *
  * @param <T>
- * @author yangll
+ * @author <a href="https://github.com/studeyang">studeyang</a>
  */
 public class ConcreteIterator<T> implements Iterator<T> {
 

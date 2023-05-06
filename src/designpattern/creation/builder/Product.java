@@ -6,7 +6,7 @@ import java.util.List;
 /**
  * 产品类，由多个部件组成
  *
- * @author yangll
+ * @author <a href="https://github.com/studeyang">studeyang</a>
  */
 public class Product {
     List<String> parts = new ArrayList<>();

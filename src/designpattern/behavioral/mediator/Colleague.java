@@ -3,7 +3,7 @@ package designpattern.behavioral.mediator;
 /**
  * 抽象同事类
  *
- * @author yangll
+ * @author <a href="https://github.com/studeyang">studeyang</a>
  *
  */
 public abstract class Colleague {

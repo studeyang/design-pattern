@@ -5,7 +5,7 @@ import java.io.IOException;
 /**
  * 原型模式客户端 演示深度拷贝和浅度拷贝
  *
- * @author yangll
+ * @author <a href="https://github.com/studeyang">studeyang</a>
  * @Todo 考虑优化此处的重复代码
  */
 public class PrototypeClient {

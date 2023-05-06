@@ -3,7 +3,7 @@ package designpattern.creation.singleton;
 /**
  * 线程安全的写法，单例模式最优写法
  *
- * @author yangll
+ * @author <a href="https://github.com/studeyang">studeyang</a>
  */
 public class SingletonThreadSafe {
     private static volatile SingletonThreadSafe instance;

@@ -3,7 +3,7 @@ package designpattern.behavioral.iterator;
 /**
  * 迭代器接口
  *
- * @author yangll
+ * @author <a href="https://github.com/studeyang">studeyang</a>
  *
  * @param <T>
  */

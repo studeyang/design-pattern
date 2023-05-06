@@ -3,7 +3,7 @@ package designpattern.structural.flyweight;
 /**
  * 所有具体享元类的超类，接受并作用于外部状态
  *
- * @author yangll
+ * @author <a href="https://github.com/studeyang">studeyang</a>
  */
 public abstract class FlyWeight {
 

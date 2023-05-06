@@ -3,7 +3,7 @@ package designpattern.behavioral.strategy;
 /**
  * 策略接口
  *
- * @author yangll
+ * @author <a href="https://github.com/studeyang">studeyang</a>
  */
 public interface Strategy {
     void algorithmInterface();

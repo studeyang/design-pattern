@@ -6,7 +6,7 @@ import java.util.List;
 /**
  * 主题或抽象通知者
  *
- * @author yangll
+ * @author <a href="https://github.com/studeyang">studeyang</a>
  */
 public abstract class Subject {
     private List<Observer> observers = new ArrayList<>();

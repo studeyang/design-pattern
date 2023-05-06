@@ -3,7 +3,7 @@ package designpattern.structural.facade;
 /**
  * 外观类客户端
  *
- * @author yangll
+ * @author <a href="https://github.com/studeyang">studeyang</a>
  */
 public class FacadeClient {
     public static void main(String[] args) {

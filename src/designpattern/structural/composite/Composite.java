@@ -6,7 +6,7 @@ import java.util.List;
 /**
  * 定义有枝节点行为，用来存储子部件
  *
- * @author yangll
+ * @author <a href="https://github.com/studeyang">studeyang</a>
  */
 public class Composite extends Component {
     private List<Component> children = new ArrayList<>();

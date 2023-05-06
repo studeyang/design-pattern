@@ -3,7 +3,7 @@ package designpattern.structural.composite;
 /**
  * 客户端。通过Component接口操作组合部件的对象
  *
- * @author yangll
+ * @author <a href="https://github.com/studeyang">studeyang</a>
  */
 public class CompositeClient {
 

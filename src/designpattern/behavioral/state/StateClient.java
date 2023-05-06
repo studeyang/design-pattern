@@ -3,7 +3,7 @@ package designpattern.behavioral.state;
 /**
  * 客户端：不断请求，不断更改状态
  *
- * @author yangll
+ * @author <a href="https://github.com/studeyang">studeyang</a>
  */
 public class StateClient {
     public static void main(String[] args) {

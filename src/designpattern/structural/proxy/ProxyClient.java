@@ -3,7 +3,7 @@ package designpattern.structural.proxy;
 /**
  * 代理客户端
  *
- * @author yangll
+ * @author <a href="https://github.com/studeyang">studeyang</a>
  *
  */
 public class ProxyClient {

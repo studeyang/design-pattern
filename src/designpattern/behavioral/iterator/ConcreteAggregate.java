@@ -7,7 +7,7 @@ import java.util.List;
  * 具体聚集类
  *
  * @param <T>
- * @author yangll
+ * @author <a href="https://github.com/studeyang">studeyang</a>
  */
 public class ConcreteAggregate<T> implements Aggregate<T> {
 
