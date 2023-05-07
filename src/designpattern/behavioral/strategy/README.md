@@ -8,7 +8,7 @@
 
 策略模式：它定义了算法家族，分别封装起来，让它们之间可以互相替换，此模式让算法的变化，不会影响到使用算法的客户。
 
-![image-20230506233844199](https://technotes.oss-cn-shenzhen.aliyuncs.com/2023/202305062338274.png)
+![](https://technotes.oss-cn-shenzhen.aliyuncs.com/2023/202305062338274.png)
 
 ## 代码
 

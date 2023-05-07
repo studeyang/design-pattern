@@ -26,8 +26,7 @@ public class PrototypeClient {
         cResume.display();
     }
 
-    public static void deepCopy() throws CloneNotSupportedException,
-            ClassNotFoundException, IOException {
+    public static void deepCopy() throws ClassNotFoundException, IOException {
         Resume aResume = new Resume();
         aResume.setName("大鸟 ").setGender("男 ").setAge(25);
         aResume.setWorkExperience("1999-2002, ", "XX公司");
@@ -45,8 +44,7 @@ public class PrototypeClient {
 
     }
 
-    public static void main(String[] args) throws CloneNotSupportedException,
-            ClassNotFoundException, IOException {
+    public static void main(String[] args) throws CloneNotSupportedException, ClassNotFoundException, IOException {
 
         // 浅度拷贝
         shallowCopy();
