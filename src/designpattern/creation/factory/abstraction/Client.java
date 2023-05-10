@@ -1,6 +1,6 @@
 package designpattern.creation.factory.abstraction;
 
-import designpattern.creation.factory.simple.Operation;
+import designpattern.creation.factory.abstraction.sqlserver.SqlserverFactory;
 
 /**
  * 客户端
@@ -8,12 +8,17 @@ import designpattern.creation.factory.simple.Operation;
  * @author <a href="https://github.com/studeyang">studeyang</a>
  */
 public class Client {
+
     public static void main(String[] args) throws InstantiationException, IllegalAccessException {
-        Operation operation = OperationFactory.createOperation("/");
+        IFactory factory = new SqlserverFactory();
 
-        operation.numberA = 7;
-        operation.numberB = 8;
+        IUserService userService = factory.createUserService();
+        userService.insert(new User());
+        User user = userService.getUser(1);
 
-        System.out.println(operation.getResult());
+        IDepartmentService departmentService = factory.createDepartmentService();
+        departmentService.insert(new Department());
+        Department department = departmentService.getDepartment(1);
     }
+
 }

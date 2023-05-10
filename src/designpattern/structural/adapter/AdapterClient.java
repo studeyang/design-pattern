@@ -8,9 +8,7 @@ package designpattern.structural.adapter;
 public class AdapterClient {
 
     public static void main(String[] args) {
-        Target target;
-
-        target = new Adapter();
+        Target target = new Adapter();
         target.request();
     }
 }
