@@ -11,11 +11,10 @@ import java.util.List;
  */
 public class ConcreteAggregate<T> implements Aggregate<T> {
 
-    private List<T> items = new ArrayList<T>();
+    private List<T> items = new ArrayList<>();
 
     @Override
     public Iterator<T> createIterator() {
-        // TODO Auto-generated method stub
         return new ConcreteIterator<T>(this);
     }
 

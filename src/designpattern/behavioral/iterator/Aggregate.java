@@ -9,5 +9,5 @@ package designpattern.behavioral.iterator;
  */
 public interface Aggregate<T> {
 
-    public Iterator<T> createIterator();
+    Iterator<T> createIterator();
 }

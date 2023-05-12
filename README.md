@@ -34,7 +34,7 @@
 - [备忘录模式](src/designpattern/behavioral/memento/README.md)
 - [迭代器模式](src/designpattern/behavioral/iterator/README.md)
 - [命令模式](src/designpattern/behavioral/command/README.md)
-- [职责链模式](src/designpattern/behavioral/responsibilitychain/README.md)
+- [责任链模式](src/designpattern/behavioral/responsibilitychain/README.md)
 - [中介者模式](src/designpattern/behavioral/mediator/README.md)
 - [访问者模式](src/designpattern/behavioral/visitor/README.md)
 

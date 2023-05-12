@@ -9,12 +9,12 @@ package designpattern.behavioral.iterator;
  */
 public interface Iterator<T> {
 
-    public T first();
+    T first();
 
-    public T next();
+    T next();
 
-    public boolean isDone();
+    boolean isDone();
 
-    public T currentItem();
+    T currentItem();
 
 }
