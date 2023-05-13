@@ -9,6 +9,7 @@ import java.util.List;
  * @author <a href="https://github.com/studeyang">studeyang</a>
  */
 public class InterpreterClient {
+
     public static void main(String[] args) {
         Context context = new Context();
         List<AbstractExpression> list = new ArrayList<>();
@@ -21,7 +22,6 @@ public class InterpreterClient {
         for (AbstractExpression expression : list) {
             expression.interpret(context);
         }
-
     }
 
 }
